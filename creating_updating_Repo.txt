@@ -1,0 +1,51 @@
+Better Approach
+
+1. Create an empty Repository online
+
+2. Create a Local Repo 
+- open git-bash
+- go to project folder (containing files you want to add to github)
+
+3. Clone online Repo (you're creating a local folder for the Repo..)
+- git clone
+
+4. Add files you want to upload to the local Repo..
+- you can check status in git bash with - git status
+(this will help you know files that are yet to be uploaded)
+
+5. Stage the files
+- git add file.name (add specific file) OR git add . (add all files)
+- git commit -m " add a message"  (getting it ready for upload)
+
+6. Upload
+- git push
+
+
+
+
+Uploading Files to Github
+
+1. Create an empty Repository online
+
+2. Create a Local Repo 
+- open git-bash
+- go to project folder (containing files you want to add to github)
+- remove any existing git ==> rm -r .git /S/Q
+- Initiate a new git ==> git init
+
+Still in git-bash
+
+3. Add all the files ==> git add .
+
+4. commit ==> git commit -m "...message.."
+
+5. Configure Local Repo with Online Repo 
+	==> git remote add origin online_repo_URL
+
+6. Push all changes from Local Repo to Online Repo 
+	==> git push -u origin master
+
+
+git_link 
+https://github.com/samigen24/Atliq_Hardware
+novypro: https://www.novypro.com/project/samigen2-3
